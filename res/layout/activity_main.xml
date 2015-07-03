@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:background="#FF19B5FE"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/str_welcome"
+        android:textColor="#FFffffff"
+        android:textSize="21sp" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="9.0"
+        android:padding="0.0dip" />
+
+</LinearLayout>

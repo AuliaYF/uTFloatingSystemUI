@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/ucup.tech.app.floating" >
+
+    <PreferenceCategory android:title="@string/pref_cat_padding" >
+        <ucup.tech.layout.IconPreferenceScreen
+            android:title="@string/pref_cat_padding"
+            app:iconPreference="@drawable/ic_notify_open_normal" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

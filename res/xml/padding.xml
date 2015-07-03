@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_cat_padding" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_left"
+            android:title="@string/pref_title_left" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_top"
+            android:title="@string/pref_title_top" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_right"
+            android:title="@string/pref_title_right" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_bottom"
+            android:title="@string/pref_title_bot" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

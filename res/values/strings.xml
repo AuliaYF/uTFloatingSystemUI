@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">uTFloatingSystemUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_preview">Preview</string>
+    <string name="pref_cat_padding">Paddings (dip)</string>
+    <string name="pref_title_left">Left Padding</string>
+	<string name="pref_title_top">Top Padding</string>
+	<string name="pref_title_right">Rigt Padding</string>
+	<string name="pref_title_bot">Bottom Padding</string>
+	<string name="str_welcome">Welcome!</string>
+	<string name="def_left">30</string>
+	<string name="def_top">15</string>
+	<string name="def_right">15</string>
+	<string name="def_bottom">20</string>
+</resources>
